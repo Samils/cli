@@ -1,0 +1,51 @@
+{
+	"name": "samils/cli",
+	"version": "1.0.1",
+	"description": "SAML",
+  "type": "library",
+	"license": "MIT",
+  "minimum-stability": "dev",
+	"keywords": [
+    "klass",
+    "class props",
+    "class properties"
+  ],
+	"autoload": {
+		"psr-4": {
+      "Sammy\\": "Sammy/"
+    },
+		"psr-0": {
+      "Sammy\\": "Sammy/"
+    },
+		"classmap": [
+      "src/"
+		],
+		"files": [
+			"autoload.php"
+		]
+	},
+  "homepage": "https://github.com/samils/cli",
+  "readme": "./README.md",
+  "authors": [
+    {
+      "name": "Agostinho Lopes",
+      "email": "agostinhosaml832@gmail.com",
+      "homepage": "https://agostinhosamil.github.io",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "base.samils@gmail.com",
+    "issues": "https://github.com/samils/cli/issues",
+    "wiki": "https://github.com/samils/cli/wiki"
+  },
+	"require": {
+		"php": ">=5.6.20",
+    "php_modules/core": "dev-main",
+    "php_modules/sami": "dev-main",
+    "php_modules/yaml-lite": "dev-main"
+	},
+  "bin": [
+    "bin/samils"
+  ]
+}
