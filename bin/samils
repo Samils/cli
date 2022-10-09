@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+
+$data = ['$dir' => __DIR__, "server" => $_SERVER];
+
+print_r($data);
