@@ -41,10 +41,7 @@
     "wiki": "https://github.com/samils/cli/wiki"
   },
 	"require": {
-		"php": ">=5.6.20",
-    "php_modules/core": "dev-main",
-    "php_modules/sami": "dev-main",
-    "php_modules/yaml-lite": "dev-main"
+		"php": ">=5.6.20"
 	},
   "bin": [
     "bin/samils"
